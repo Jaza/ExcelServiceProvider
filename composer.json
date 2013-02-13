@@ -1,0 +1,25 @@
+{
+    "name": "Jaza/excel-service-provider",
+    "description": "An Excel ServiceProvider for Silex.",
+    "keywords": ["silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Epstein",
+            "email": "jazepstein@greenash.net.au"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.0.*@dev",
+        "nercury/symfony2-stream-response": "dev-master",
+        "codeplex/phpexcel": "1.7.8"
+    },
+    "autoload": {
+        "psr-0": { "ExcelServiceProvider": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
