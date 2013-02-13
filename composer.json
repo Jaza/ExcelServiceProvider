@@ -1,5 +1,5 @@
 {
-    "name": "Jaza/excel-service-provider",
+    "name": "jaza/excel-service-provider",
     "description": "An Excel ServiceProvider for Silex.",
     "keywords": ["silex"],
     "license": "MIT",
