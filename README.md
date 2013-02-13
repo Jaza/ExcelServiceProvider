@@ -2,6 +2,10 @@
 
 An Excel ServiceProvider for [Silex](http://silex.sensiolabs.org).
 
+This package is based on https://github.com/liuggio/ExcelBundle - many parts of the code are copied directly from there. This package implements the PHPExcel integration as a Silex Service Provider, instead of as a Symfony2 component.
+
+I've only implemented Excel5 support, and I doubt that I will implement the other export formats offered by the liuggio version, because I simply don't need them myself. Feel free to fork or to submit patches if you're keen to implement the other formats.
+
 ## Installation
 
 1  Add to the 'require' section of composer.json:  
