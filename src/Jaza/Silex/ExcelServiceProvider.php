@@ -8,7 +8,7 @@
  * https://github.com/liuggio/ExcelBundle
  */
 
-namespace ExcelServiceProvider;
+namespace Jaza\Silex;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
@@ -16,7 +16,7 @@ use Silex\ServiceProviderInterface;
 use n3b\Bundle\Util\HttpFoundation\StreamResponse\StreamWriterWrapper;
 use n3b\Bundle\Util\HttpFoundation\StreamResponse\StreamResponse;
 
-use ExcelServiceProvider\ExcelContainer;
+use Jaza\Silex\ExcelContainer;
 
 /**
  * PHPExcel integration for Silex.

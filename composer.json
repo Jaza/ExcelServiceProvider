@@ -15,7 +15,7 @@
         "codeplex/phpexcel": "1.7.8"
     },
     "autoload": {
-        "psr-0": { "ExcelServiceProvider": "src" }
+        "psr-0": { "Jaza": "src" }
     },
     "extra": {
         "branch-alias": {

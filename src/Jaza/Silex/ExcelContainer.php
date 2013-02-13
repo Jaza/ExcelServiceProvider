@@ -8,7 +8,7 @@
  * https://github.com/liuggio/ExcelBundle/blob/master/Service/ExcelContainer.php
  */
 
-namespace ExcelServiceProvider;
+namespace Jaza\Silex;
 
 use n3b\Bundle\Util\HttpFoundation\StreamResponse\StreamResponse;
 
