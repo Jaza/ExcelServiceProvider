@@ -4,7 +4,7 @@ An Excel ServiceProvider for [Silex](http://silex.sensiolabs.org).
 
 ## Installation
 
-1  Add to the 'requite' section of composer.json:  
+1  Add to the 'require' section of composer.json:  
 
 ``` 
     "require" : {
