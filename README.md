@@ -47,7 +47,7 @@ $excelService->excelObj->setActiveSheetIndex(0);
 
 $response = $excelService->getResponse();
 $response->headers->set('Content-Type', 'text/vnd.ms-excel; charset=utf-8');
-$response->headers->set('Content-Disposition', 'attachment;filename=rpttest.xls');
+$response->headers->set('Content-Disposition', 'attachment;filename=test.xls');
 
 // If you are using a https connection, you have to set those two headers for compatibility with IE <9
 $response->headers->set('Pragma', 'public');
