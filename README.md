@@ -2,6 +2,23 @@
 
 An Excel ServiceProvider for [Silex](http://silex.sensiolabs.org).
 
+## Installation
+
+1  Add to the 'requite' section of composer.json:  
+
+``` 
+    "require" : {
+        "jaza/excel-service-provider": "1.0.*@dev",
+    }
+``` 
+ 
+
+2 Register the provider:
+
+``` php
+$app->register(new Jaza\Silex\ExcelServiceProvider());
+```
+
 ## Usage
 
 From within a Silex callback or elsewhere:
